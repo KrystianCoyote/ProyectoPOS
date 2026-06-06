@@ -1,0 +1,33 @@
+﻿# para hacerle un reload es  -flutter pub get
+
+name: pos_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  http: ^1.2.2   # 👈 YA corregido, sin guiones
+
+  file_picker: ^8.0.0
+  pdf: ^3.10.7
+  printing: ^5.11.0
+  intl: ^0.19.0
+  mobile_scanner: ^7.1.2
+  blue_thermal_printer: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,62 @@
+
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+*.iml
+*.ipr
+*.iws
+.idea/
+
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+app.*.symbols
+app.*.map.json
+
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Reglas extra para Gradle/Android nativo por si acaso
+.gradle/
+build/
+local.properties
+
+
+# Archivos de configuración de usuario y temporales de VS
+.vs/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Cachés de compilación y paquetes de NuGet
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.nuget.props
+*.nuget.targets
+
+
+# Esto evita que subas respaldos temporales o logs pesados,
+# pero SÍ te permitirá subir tu archivo "script.sql" sin problemas.
+*.backup
+*.err
