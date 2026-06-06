@@ -1,4 +1,4 @@
-"""# 🛒 Sistema de Punto de Venta - Proyecto POS
+# 🛒 Sistema de Punto de Venta - Proyecto POS
 
 ¡Bienvenido a Proyecto POS! Este repositorio contiene un sistema de punto de venta inteligente, multiplataforma y desacoplado, diseñado para automatizar las operaciones comerciales de negocios locales como cafeterías, tiendas de snacks, pequeños restaurantes de comida rápida y comercios minoristas.
 
@@ -96,4 +96,3 @@ El script SQL aprovisiona automáticamente los siguientes accesos rápidos para 
 * Capa de Servidor (API): .NET 8, C# (ASP.NET Core Web API), Middlewares de logging y excepciones.
 * Capa de Cliente (Multiplataforma): Flutter Framework, Dart Language.
 * Componentes Incorporados: Generación de tickets en formato PDF, Integración Bluetooth para periféricos físicos, Escaneo de códigos ópticos por hardware de cámara.
-"""
